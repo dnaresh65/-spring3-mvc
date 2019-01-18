@@ -53,18 +53,7 @@
 					</webApp>
 				</configuration>
 			</plugin>
-              <distributionManagement>	 
-	              <id>releases</id>
-	             <name> Internal  releases</name>
-                   <url> http://localhost:8081/repository/Simple_Release/ </url>
-               <snapshotRepository>
-	        <id>snapshots</id>
-                <name> Internal Snapshot releases</name>
-	     <url> http://localhost:8081/repository/Simple_Snap/</url>
-	      </snapshotRepository>
-         </distributionManagement>
-
-
+             
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-eclipse-plugin</artifactId>
